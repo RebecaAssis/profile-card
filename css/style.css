@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.positioning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top right, #EEBE6C 0%, #CA7C4E 100%);
+}
+
+.container {
+    background: white;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px 0 rgb(0 0 0 / 30%);
+    justify-content: space-around;
+
+}
+
+.left-card, .right-card {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+
+.right-card {
+    width: 160px;
+    border-radius: 0 5px 5px 0;
+}
+
+.right-card div {
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #f5e8df;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.right-card div:hover {
+    background-color: #E1CFC2;
+}
+
+
+.right-card div:nth-child(2) {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #ffffff;    
+}
+
+.right-card div:nth-child(1) {
+    border-radius: 0 5px 0 0;
+}
+
+.right-card div:nth-child(3) {
+    border-radius: 0 0 5px 0;
+}
+
+.left-card {
+    width: 230px;
+    border-radius: 5px 0 0 5px;
+    padding: 40px 0 25px 0;
+}
+
+.left-card div {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-card div:nth-child(1) {
+    position: relative;
+}
+
+.left-card span:nth-child(1) {
+    position: absolute;
+    border: 1px solid #786450;
+    border-left-color: #ffffff;
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+    transition: 1.5s;
+}
+
+.left-card span:nth-child(2) {
+    position: absolute;
+    border: 1px solid #786450;
+    border-right-color: #ffffff;
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    transition: 1.5s;
+}
+
+.left-card div:nth-child(1):hover span:nth-child(1) {
+    transform: rotate(360deg);
+}
+
+.left-card div:nth-child(1):hover span:nth-child(2) {
+    transform: rotate(-360deg);
+}
+
+
+
+img {
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.left-card div:nth-child(2), .left-card div:nth-child(3){
+    width: 120px;
+    height: 80px;
+}
+
+.left-card div:nth-child(2) {
+    justify-content: start;
+}
+
+.left-card div:nth-child(3) {
+    justify-content: space-around;
+}
+
+p, button {
+    color:  #786450;
+    transition: color 1s;
+}
+
+div p:first-child, button {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #786450;
+    border-radius: 20px;
+    transition: background-color 0.8;
+}
+
+button:hover {
+    background: #786450;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
