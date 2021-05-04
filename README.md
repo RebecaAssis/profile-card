@@ -1,7 +1,7 @@
 
 # Desafio de CSS 002: Profile Card
 
-Este é um desafio do [100 Days CSS Challenge](https://100dayscss.com/?dayIndex=5)
+Este é um desafio do [100 Days CSS Challenge](https://100dayscss.com/?dayIndex=5).
 O desafio 002 é um Card, que possui informações de um perfil. O card possui eventos que são acionados com
 a sobreposição do mouse.
 <div>
