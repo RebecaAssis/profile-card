@@ -18,6 +18,6 @@ Para conferir e testar a aplicação, basta acessar o [link do GitHub Pages](htt
 
 ## Projetos relacioanados
 
-Aqui você pode conferir o primeiro projeto deste desafio: [Desafio 001](https://github.com/matiassingers/awesome-readme)
+Aqui você pode conferir o primeiro projeto deste desafio: [Desafio 001](https://github.com/RebecaAssis/animated-bars)
 
   
